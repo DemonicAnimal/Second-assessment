@@ -91,3 +91,8 @@ while bool_choice is False:
         print('Invalid')
 
 pass
+
+time.sleep(4.0)
+print('Quickly afterwards you realize how thirsty you are come to think of it you havent eaten anything or drank anything for almost two days.')
+time.sleep(2.0)
+print('')
