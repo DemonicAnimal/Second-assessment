@@ -3,20 +3,20 @@ bool_choice = True
 str_userChoice =''
 
 print('Welcome to my text adventure game!')
-time.sleep(1.5)
+time.sleep(2.5)
 print('For every decision there will only be ONE correct awnser, choose wisely...')
-time.sleep(2.0)
+time.sleep(2.5)
 print('If you do make a wrong decision I wont force you to restart im not that mean. (pinky promise)')
-time.sleep(3.0)
+time.sleep(2.5)
 print('To make a decision input either 1,2,3,4, etc.\n')
-time.sleep(3.0)
+time.sleep(2.5)
 
 print('You wake up in the forest as the sun rises in the distance.')
-time.sleep(2.0)
+time.sleep(2.5)
 print('You have no idea how you got here...')
-time.sleep(5.0)
+time.sleep(2.5)
 print('After taking awhile to think you decide there are four main things you should do.\n')
-time.sleep(3.0)
+time.sleep(2.5)
 
 print('(1) Search for civilization.')
 time.sleep(1.0)
@@ -24,7 +24,7 @@ print('(2) Search for food.')
 time.sleep(1.0)
 print('(3) Search for water.')
 time.sleep(1.0)
-print('(4) Search for shelter')
+print('(4) Search for shelter.')
 time.sleep(1.0)
 
 while bool_choice is True:
@@ -55,13 +55,13 @@ pass
 
 time.sleep(2.5)
 print('\nYou sit by the lake taking some time to think.')
-time.sleep(1.5)
+time.sleep(2.5)
 print('As you sit and ponder by the lake time flys by you dont even notice as you sit there from dawn till dusk.')
 time.sleep(2.5)
 print('When you finally notice the time you realize you need to find shelter IMMEDIATELY.')
-time.sleep(2.0)
+time.sleep(2.5)
 print('After a quick look around your surroundings you see a few possible options\n.')
-time.sleep(1.5)
+time.sleep(2.5)
 
 print('(1) A cave not far from the lake.')
 time.sleep(1.0)
@@ -92,23 +92,23 @@ while bool_choice is False:
 
 pass
 
-time.sleep(5.0)
+time.sleep(2.5)
 print('Quickly afterwards you realize how thirsty you are... come to think of it you havent eaten anything or drank anything for almost two days.')
-time.sleep(2.0)
+time.sleep(2.5)
 print('You walk over to the lake cup your hands and collect some water you then put your face upto your hands and take a sip.')
-time.sleep(2.0)
+time.sleep(2.5)
 print('The water is quite refreshing you take a few more sips until your satisfied then you need to solve the food problem...')
-time.sleep(2.0)
+time.sleep(2.5)
 print('After taking a moment to think you come up with a few options.')
-time.sleep(1.0)
+time.sleep(2.5)
 
-print('(1) Set a trap')
+print('(1) Set a trap.')
 time.sleep(1.0)
-print('(2) Try to hunt something')
+print('(2) Try to hunt something.')
 time.sleep(1.0)
-print('(3) Scavenge for food')
+print('(3) Scavenge for food.')
 time.sleep(1.0)
-print('(4) Fish in the lake')
+print('(4) Fish in the lake.')
 time.sleep(1.0)
 
 while bool_choice is True:
@@ -134,3 +134,52 @@ while bool_choice is True:
     
     else:
         print('Invalid')
+
+pass
+
+time.sleep(2.5)
+print('You quickly find some leaves and branches and bring them back to the lake. Using a nearby piece of flint and a discarded scrap of steel you start a fire after a couple attempts you manage to start a fire.')
+time.sleep(2.5)
+print('Afterwards you find some more sturdy branches and make some kind of spitroast that you spear the fish on.')
+time.sleep(2.5)
+print('you sit by the fire waiting for it to cook, after waiting around 20 minutes it looks ready.')
+time.sleep(2.5)
+print('You take it off the fire and wait for it to cool down a bit, after another 20ish minutes it feel cool enough to touch. You then debone the fish and eat as much as you can, after you throw the waste in the water.')
+time.sleep(2.5)
+print('You decide to try to improve your shelter or maybe find a new one.')
+time.sleep(2.5)
+
+print('(1) Dig the shelter bigger to improve your breathing room.')
+time.sleep(1.0)
+print('(2) Check out the cave near the lake.')
+time.sleep(1.0)
+print('(3) Try to build some kind of cabin.')
+time.sleep(1.0)
+print('(4) Do a wider search.')
+time.sleep(1.0)
+
+while bool_choice is False:
+
+    str_userChoice = input('\nHow will you improve your QOL?\n')
+    time.sleep(1.0)
+
+    if str_userChoice == '1':  
+        print('') 
+        bool_choice = True 
+    
+    elif str_userChoice == '2':
+        print('') 
+        bool_choice = False 
+    
+    elif str_userChoice == '3':
+        print('') 
+        bool_choice = False 
+    
+    elif str_userChoice == '4':
+        print('') 
+        bool_choice = False 
+    
+    else:
+        print('Invalid')
+
+pass
