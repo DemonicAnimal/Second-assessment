@@ -160,23 +160,23 @@ time.sleep(1.0)
 
 while bool_choice is False:
 
-    str_userChoice = input('\nHow will you improve your QOL?\n')
+    str_userChoice = input('\nWhat will you do?\n')
     time.sleep(1.0)
 
     if str_userChoice == '1':  
-        print('') 
+        print('You find a sturdy chunk of bark and use that to dig after alot of effort you manage to dig and toss out alot of dirt leaving you with alot more room.') 
         bool_choice = True 
     
     elif str_userChoice == '2':
-        print('') 
+        print('As you enter the cave you get a bad feeling of deja vu, you swallow and go deeper anyway where you are quickly torn apart by a bear.') 
         bool_choice = False 
     
     elif str_userChoice == '3':
-        print('') 
+        print('You find a sturdy branch and a sharp flat stone you tie them using flax and tree sap you try to chop done a tree the axe breaks after awhile but makes a good effort on the tree. So you repeat the process again, and again, and again, and again... after alot of effort you finally have enough wood! Its getting dark though... you try to make the cabin ASAP but in the process it colapses ontop of you luckily you survive! However the baying wolves smell your blood...\nYou died, try again.') 
         bool_choice = False 
     
     elif str_userChoice == '4':
-        print('') 
+        print('After venturing far from the lake you find... absolutely nothing, you head back to the lake but sadly on the way you slip off a cliff.') 
         bool_choice = False 
     
     else:
