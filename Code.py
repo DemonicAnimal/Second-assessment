@@ -60,7 +60,7 @@ print('As you sit and ponder by the lake time flys by you dont even notice as yo
 time.sleep(2.5)
 print('When you finally notice the time you realize you need to find shelter IMMEDIATELY.')
 time.sleep(2.5)
-print('After a quick look around your surroundings you see a few possible options\n.')
+print('After a quick look around your surroundings you see a few possible options.\n')
 time.sleep(2.5)
 
 print('(1) A cave not far from the lake.')
@@ -99,7 +99,7 @@ print('You walk over to the lake cup your hands and collect some water you then 
 time.sleep(2.5)
 print('The water is quite refreshing you take a few more sips until your satisfied then you need to solve the food problem...')
 time.sleep(2.5)
-print('After taking a moment to think you come up with a few options.')
+print('After taking a moment to think you come up with a few options.\n')
 time.sleep(2.5)
 
 print('(1) Set a trap.')
@@ -146,7 +146,7 @@ print('you sit by the fire waiting for it to cook, after waiting around 20 minut
 time.sleep(2.5)
 print('You take it off the fire and wait for it to cool down a bit, after another 20ish minutes it feel cool enough to touch. You then debone the fish and eat as much as you can, after you throw the waste in the water.')
 time.sleep(2.5)
-print('You decide to try to improve your shelter or maybe find a new one.')
+print('You decide to try to improve your shelter or maybe find a new one.\n')
 time.sleep(2.5)
 
 print('(1) Dig the shelter bigger to improve your breathing room.')
@@ -168,7 +168,7 @@ while bool_choice is False:
         bool_choice = True 
     
     elif str_userChoice == '2':
-        print('As you enter the cave you get a bad feeling of deja vu, you swallow and go deeper anyway where you are quickly torn apart by a bear.') 
+        print('As you enter the cave you get a bad feeling of deja vu, you swallow and go deeper anyway where you are quickly torn apart by a bear\nYou died, try again.') 
         bool_choice = False 
     
     elif str_userChoice == '3':
@@ -176,10 +176,18 @@ while bool_choice is False:
         bool_choice = False 
     
     elif str_userChoice == '4':
-        print('After venturing far from the lake you find... absolutely nothing, you head back to the lake but sadly on the way you slip off a cliff.') 
+        print('After venturing far from the lake you find... absolutely nothing, you head back to the lake but sadly on the way you slip off a cliff\nYou died, try again.') 
         bool_choice = False 
     
     else:
         print('Invalid')
 
 pass
+
+print('Seeing how late it is you decide to test your improved shelter.')
+time.sleep(2.5)
+print(The next couple days you just focus on surviving and adapting.)
+time.sleep(2.5)
+print('Over the next couple days you start to feel more and more confident about what you can and can't do.)
+time.sleep(2.5)
+print('')
