@@ -186,8 +186,8 @@ pass
 
 print('Seeing how late it is you decide to test your improved shelter.')
 time.sleep(2.5)
-print(The next couple days you just focus on surviving and adapting.)
+print('The next couple days you just focus on surviving and adapting.')
 time.sleep(2.5)
-print('Over the next couple days you start to feel more and more confident about what you can and can't do.)
+print('Over the next couple days you start to feel more and more confident about what you can and cant do.')
 time.sleep(2.5)
 print('')
