@@ -19,13 +19,13 @@ print('After taking awhile to think you decide there are four main things you sh
 time.sleep(2.5)
 
 print('(1) Search for civilization.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(2) Search for food.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(3) Search for water.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(4) Search for shelter.')
-time.sleep(1.0)
+time.sleep(2.5)
 
 while bool_choice is True:
 
@@ -64,11 +64,11 @@ print('After a quick look around your surroundings you see a few possible option
 time.sleep(2.5)
 
 print('(1) A cave not far from the lake.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(2) A small ditch covered by the leaves and branches of a fallen tree.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(3) A clump of trees shrubs and foliage.')
-time.sleep(1.0)
+time.sleep(2.5)
 
 while bool_choice is False:
 
@@ -103,13 +103,13 @@ print('After taking a moment to think you come up with a few options.\n')
 time.sleep(2.5)
 
 print('(1) Set a trap.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(2) Try to hunt something.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(3) Scavenge for food.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(4) Fish in the lake.')
-time.sleep(1.0)
+time.sleep(2.5)
 
 while bool_choice is True:
 
@@ -150,13 +150,13 @@ print('You decide to try to improve your shelter or maybe find a new one.\n')
 time.sleep(2.5)
 
 print('(1) Dig the shelter bigger to improve your breathing room.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(2) Check out the cave near the lake.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(3) Try to build some kind of cabin.')
-time.sleep(1.0)
+time.sleep(2.5)
 print('(4) Do a wider search.')
-time.sleep(1.0)
+time.sleep(2.5)
 
 while bool_choice is False:
 
@@ -188,6 +188,48 @@ print('Seeing how late it is you decide to test your improved shelter.')
 time.sleep(2.5)
 print('The next couple days you just focus on surviving and adapting.')
 time.sleep(2.5)
-print('Over the next couple days you start to feel more and more confident about what you can and cant do.')
+print('Over the next couple days you start to feel more and more confident about what you can and can't do.')
 time.sleep(2.5)
-print('')
+print('But you still need to figure out how to get back to civilization...')
+time.sleep(2.5)
+
+print('(1) Walk in one direction for long enough and hope for the best.')
+time.sleep(2.5)
+print('(2) Climb a tall hill to try a good veiw of the surrounding area.')
+time.sleep(2.5)
+print('(3) Find a river and follow it upwards until you find civilization.')
+time.sleep(2.5)
+print('(4) Go from place to place and hope to eventually find something.')
+time.sleep(2.5)
+print('(5) Just continue focusing on survival')
+time.sleep(2.5)
+
+while bool_choice is True:
+
+    str_userChoice = input('\nWhat will you do?\n')
+    time.sleep(1.0)
+
+    if str_userChoice == '1':  
+        print('') 
+        bool_choice = True 
+    
+    elif str_userChoice == '2':
+        print('') 
+        bool_choice = True 
+    
+    elif str_userChoice == '3':
+        print('') 
+        bool_choice = True
+    
+    elif str_userChoice == '4':
+        print('') 
+        bool_choice = False 
+    
+    elif str_userChoice == '5':
+        print('')
+        bool_choice = True
+    
+    else:
+        print('Invalid')
+
+pass
