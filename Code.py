@@ -190,7 +190,7 @@ print('The next couple days you just focus on surviving and adapting.')
 time.sleep(2.5)
 print('Over the next couple days you start to feel more and more confident about what you can and cant do.')
 time.sleep(2.5)
-print('But you still need to figure out how to get back to civilization...')
+print('But you still need to figure out how to get back to civilization...\n')
 time.sleep(2.5)
 
 print('(1) Walk in one direction for long enough and hope for the best.')
@@ -210,24 +210,66 @@ while bool_choice is True:
     time.sleep(1.0)
 
     if str_userChoice == '1':  
-        print('') 
+        print('You head what you assume is straight north only diverging from your path to dodge obstacles it starts to get dark you think about stopping but decide not to. after another couple hours of walking it becomes impossible to see soon after you fall off a cliff.\nYou died, try again.') 
         bool_choice = True 
     
     elif str_userChoice == '2':
-        print('') 
+        print('You head up the hill after an hour or so you reach the top, you cant seem to see much from the top. You decide to head back to the lake and think of a new plan, After carefully making your way down you return to the lake.\nTry again.') 
         bool_choice = True 
     
     elif str_userChoice == '3':
-        print('') 
+        print('After walking for awhile you find a river, you then follow it upwards hoping to find some kind of civilization eventually. Sadly your journey is cut short when an alligator pulls you underwater and tears you apart.\nYou died, try again.') 
         bool_choice = True
     
     elif str_userChoice == '4':
-        print('') 
+        print('You set out on your journey going from place to place trying to make do with whatever shelter and food you can find.') 
         bool_choice = False 
     
     elif str_userChoice == '5':
-        print('')
+        print('You live for a few years before dying to the common cold.\nYou died, try again')
         bool_choice = True
+    
+    else:
+        print('Invalid')
+
+pass
+
+print('One day as your wandering you get a bad feeling.')
+time.sleep(2.5)
+print('As night falls you realize why.')
+time.sleep(2.5)
+print('Its extremely cold! you desperately need a good shelter or somewhere safe to light a fire.')
+time.sleep(2.5)
+
+print('(1)')
+time.sleep(2.5)
+print('(2)')
+time.sleep(2.5)
+print('(3)')
+time.sleep(2.5)
+print('(4)')
+time.sleep(2.5)
+
+while bool_choice is False:
+
+    str_userChoice = input('\nWhat will you do?\n')
+    time.sleep(1.0)
+
+    if str_userChoice == '1':  
+        print('') 
+        bool_choice =  
+    
+    elif str_userChoice == '2':
+        print('') 
+        bool_choice =  
+    
+    elif str_userChoice == '3':
+        print('') 
+        bool_choice =  
+    
+    elif str_userChoice == '4':
+        print('') 
+        bool_choice =  
     
     else:
         print('Invalid')
