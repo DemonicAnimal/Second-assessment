@@ -241,13 +241,13 @@ time.sleep(2.5)
 print('Its extremely cold! you desperately need a good shelter or somewhere safe to light a fire.')
 time.sleep(2.5)
 
-print('(1)')
+print('(1) Light a fire out in the open.')
 time.sleep(2.5)
-print('(2)')
+print('(2) Go inside a nearby cave and light a fire.')
 time.sleep(2.5)
-print('(3)')
+print('(3) Keep going and hope to find something better.')
 time.sleep(2.5)
-print('(4)')
+print('(4) ')
 time.sleep(2.5)
 
 while bool_choice is False:
