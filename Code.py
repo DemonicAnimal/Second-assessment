@@ -247,7 +247,7 @@ print('(2) Go inside a nearby cave and light a fire.')
 time.sleep(2.5)
 print('(3) Keep going and hope to find something better.')
 time.sleep(2.5)
-print('(4) ')
+print('(4) A tree with overhanging roots.')
 time.sleep(2.5)
 
 while bool_choice is False:
@@ -256,20 +256,20 @@ while bool_choice is False:
     time.sleep(1.0)
 
     if str_userChoice == '1':  
-        print('') 
-        bool_choice =  
+        print('You collect a bunch of sticks logs and other kindling, you then light a fire, after awhile you hear howling.\nYou died, try again.') 
+        bool_choice = False
     
     elif str_userChoice == '2':
-        print('') 
-        bool_choice =  
+        print('You gather some kindling and head into the cave, you head to the very back and light the fire. You lie down and quickly fall asleep next to the hot fire.') 
+        bool_choice = True
     
     elif str_userChoice == '3':
-        print('') 
-        bool_choice =  
+        print('After walking for awhile you manage to find a rundown cabin, you head inside and find a warm bed you lie down and go to bed. you fall asleep warm and cozy however the bed is not warm enough and you die from hypothermia as the night gets colder.\nYou died, try again.') 
+        bool_choice = False
     
     elif str_userChoice == '4':
-        print('') 
-        bool_choice =  
+        print('You quickly find some branches sticks and leaves to make a small hut looking thing that covers the parts the roots dont. You crawl inside in warm enough and cozy so you decide to get some rest, but sadly the night gets alot colder and you dont survive.\nYou died, try again.') 
+        bool_choice = False
     
     else:
         print('Invalid')
