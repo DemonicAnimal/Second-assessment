@@ -260,7 +260,7 @@ while bool_choice is False:
         bool_choice = False
     
     elif str_userChoice == '2':
-        print('You gather some kindling and head into the cave, you head to the very back and light the fire. You lie down and quickly fall asleep next to the hot fire.') 
+        print('You gather some kindling and head into the cave, you head to the very back and light a fire. You lie down and quickly fall asleep next to the hot fire.') 
         bool_choice = True
     
     elif str_userChoice == '3':
@@ -275,3 +275,23 @@ while bool_choice is False:
         print('Invalid')
 
 pass
+
+print('After waking up you keep on moving going from place to place.')
+time.sleep(2.5)
+print('after a few hours you find an abandoned village, it looks ancient...')
+time.sleep(2.5)
+print('You decide to head into the village, after taking a moment to think you head into the first house along the second row.')
+time.sleep(2.5)
+print('Shortly after you find some... canned food? maybe this village isnt as ancient as you thought...')
+time.sleep(2.5)
+print('You head outside and think about what house to head in next.')
+time.sleep(2.5)
+
+print('(1)')
+time.sleep(2.5)
+print('(2)')
+time.sleep(2.5)
+print('(3)')
+time.sleep(2.5)
+print('(4)')
+time.sleep(2.5)
